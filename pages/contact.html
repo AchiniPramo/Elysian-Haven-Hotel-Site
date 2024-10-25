@@ -18,6 +18,7 @@
       href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="/style/contact.css" />
   </head>
   <body>
     <!-- -----------------------------------------Nav Bar--------------------------------------------------------------- -->
@@ -65,8 +66,8 @@
             <li class="nav-item">
               <a
                 class="nav-link text-light"
-                href="/pages/services.html"
                 aria-current="true"
+                href="/pages/services.html"
                 >Services</a
               >
             </li>
@@ -82,8 +83,8 @@
             <li class="nav-item">
               <a
                 class="nav-link text-light"
-                aria-current="true"
                 href="/pages/contact.html"
+                aria-current="true"
                 >Contact</a
               >
             </li>
@@ -103,48 +104,52 @@
       </div>
     </nav>
 
-    <!-- -----------------------------------------About--------------------------------------------------------------- -->
-    <div class="card text-center">
-      <div class="card-header"></div>
-      <div class="card-body">
-        <h5 class="card-title">
-          <center>
-            <h1 class="text-center titles text-align ce">About Us</h1>
-          </center>
-          Welcome to Elysian Haven Hotel – Your Gateway to Serenity and Luxury
-        </h5>
-
+    <!-- -----------------------------------------Contact--------------------------------------------------------------- -->
+    <section class="contact-container">
+      <div>
         <img
-          src="/assets/image/blue-chair-background-lounge-pool.jpg"
-          class="card-img-top"
-          alt="..."
-        />
-        <div class="card-body"></div>
-
-        <p class="card-text">
-          At Elysian Haven Hotel, we believe in crafting unforgettable
-          experiences that blend comfort, elegance, and impeccable service.
-          Nestled in a picturesque setting, our hotel is designed to be your
-          perfect escape from the hustle and bustle of everyday life. Whether
-          you're here for a relaxing getaway, a romantic retreat, or a business
-          stay, our serene surroundings and world-class amenities provide the
-          ideal backdrop for rejuvenation and luxury. <br /><br />
-          Our elegantly designed rooms and suites offer a peaceful haven,
-          complete with modern conveniences and thoughtful touches to make your
-          stay as comfortable as possible. From our tranquil spa and refreshing
-          pool to our exquisite dining options, every detail is curated to
-          provide an exceptional experience that lingers long after you leave.
-          <br /><br />
-          At Elysian Haven, we are passionate about delivering warm hospitality
-          with a personal touch. Our dedicated team is here to anticipate your
-          every need, ensuring that your stay is nothing short of perfect. We
-          invite you to relax, unwind, and enjoy a stay where luxury meets
-          tranquility. Discover a world of peace and elegance at Elysian Haven
-          Hotel, where every moment is designed for your ultimate comfort.
-        </p>
+          class="contact-img"
+          src="/assets/image/contact page.png"
+          alt=""
+        /><br /><br />
       </div>
-    </div>
 
+      <div>
+        <h3 class="text-center">GET IN TOUCH</h3>
+        <br />
+        <form class="contact-form">
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Name</label>
+            <input
+              type="password"
+              class="form-control"
+              id="exampleInputPassword1"
+            />
+          </div>
+
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">E-mail</label>
+            <input
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+            />
+          </div>
+          <div class="form-floating">
+            <textarea
+              class="form-control"
+              placeholder="Leave a comment here"
+              id="floatingTextarea"
+            ></textarea>
+            <label for="floatingTextarea">Message</label>
+          </div>
+          <br />
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+      </div>
+    </section>
+    <br />
     <!-- -----------------------------------------Footer--------------------------------------------------------------- -->
     <footer class="bg-dark text-light py-4">
       <div class="container">
@@ -176,11 +181,11 @@
             <p><strong>Phone:</strong> +123 456 7890</p>
             <p><strong>Email:</strong> info@elysianhaven.com</p>
             <!-- <div class="social-img-container">
-                    <img class="img-fluid social-img" src="assets/image/Facebook.gif" alt="">
-                    <img class="img-fluid social-img" src="assets/image/mail.gif" alt="">
-                    <img class="img-fluid social-img" src="assets/image/Twitter.gif" alt="">
-                    <img class="img-fluid social-img" src="assets/image/Whatsapp.gif" alt="">
-                </div> -->
+                      <img class="img-fluid social-img" src="assets/image/Facebook.gif" alt="">
+                      <img class="img-fluid social-img" src="assets/image/mail.gif" alt="">
+                      <img class="img-fluid social-img" src="assets/image/Twitter.gif" alt="">
+                      <img class="img-fluid social-img" src="assets/image/Whatsapp.gif" alt="">
+                  </div> -->
           </div>
         </div>
 
