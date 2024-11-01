@@ -340,7 +340,7 @@
       </div>
     </section>
 
-    <!-- Sri Lanka Map Section -->
+    <!-- Sri Lanka Map Section
     <section id="sri-lanka-map" class="py-5">
       <div class="container">
         <h2 class="text-center mb-4">Our Location - Sri Lanka</h2>
@@ -362,7 +362,37 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
+
+    <div class="toast-container position-fixed bottom-0 end-0 p-3">
+      <div
+        id="myToast"
+        class="toast"
+        role="alert"
+        aria-live="assertive"
+        aria-atomic="true"
+        style="width: auto"
+      >
+        <div class="toast-header" style="position: relative">
+          <img
+            src="/assets/image/istockphoto-1927555393-612x612.jpg"
+            class="rounded me-2"
+            alt="childrens_day photo"
+            style="width: 150x; height: 350px; object-fit: cover"
+          />
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="toast"
+            aria-label="Close"
+            style="position: absolute; top: 10px; right: 10px"
+          ></button>
+        </div>
+        <div class="toast-body">
+          Don’t forget to explore our exclusive services and amenities.
+        </div>
+      </div>
+    </div>
 
     <!-- -----------------------------------------Footer--------------------------------------------------------------- -->
     <footer class="bg-dark text-light py-4">
@@ -420,22 +450,22 @@
             <div class="social-img-container">
               <img
                 class="img-fluid social-img"
-                src="assets/image/Facebook.gif"
+                src="assets/image/facebook.png"
                 alt=""
               />
               <img
                 class="img-fluid social-img"
-                src="assets/image/mail.gif"
+                src="assets/image/email.png"
                 alt=""
               />
               <img
                 class="img-fluid social-img"
-                src="assets/image/Twitter.gif"
+                src="assets/image/twitter.png"
                 alt=""
               />
               <img
                 class="img-fluid social-img"
-                src="assets/image/Whatsapp.gif"
+                src="assets/image/whatsapp.png"
                 alt=""
               />
             </div>
@@ -455,5 +485,13 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+
+    <script>
+      window.onload = function () {
+        var toastEl = document.getElementById("myToast");
+        var toast = new bootstrap.Toast(toastEl);
+        toast.show();
+      };
+    </script>
   </body>
 </html>
