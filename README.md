@@ -68,7 +68,8 @@ elysian-haven-hotel/
 ## 📸 Screenshots  
 
 ### Home Page  
-![Home Page](path-to-homepage-screenshot.png)  
+![Home Page](![Uploading Home page.PNG…]()
+)  
 
 ### Rooms & Amenities  
 ![Rooms & Amenities](path-to-rooms-screenshot.png)  
