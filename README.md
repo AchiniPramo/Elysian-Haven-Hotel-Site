@@ -68,8 +68,7 @@ elysian-haven-hotel/
 ## 📸 Screenshots  
 
 ### Home Page  
-![Home Page] https://github.com/AchiniPramo/Elysian-Haven-Hotel-Site/blob/ddc7350da22169d531aaf2f0b8a6e24582cacef1/Home%20page.PNG
-)  
+![Home Page] (https://github.com/AchiniPramo/Elysian-Haven-Hotel-Site/blob/ddc7350da22169d531aaf2f0b8a6e24582cacef1/Home%20page.PNG)
 
 ### Rooms & Amenities  
 ![Rooms & Amenities](path-to-rooms-screenshot.png)  
