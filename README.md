@@ -71,12 +71,12 @@ elysian-haven-hotel/
 ![Home Page](https://github.com/AchiniPramo/Elysian-Haven-Hotel-Site/blob/ddc7350da22169d531aaf2f0b8a6e24582cacef1/Home%20page.PNG)
 
 ### Rooms & Amenities  
-![Rooms & Amenities](path-to-rooms-screenshot.png)  
+![Rooms & Amenities](https://github.com/AchiniPramo/Elysian-Haven-Hotel-Site/blob/4ad059c03b6ff556fff98141b764986661e7e336/Rooms.PNG)
 
-### Booking Section  
-![Booking Section](path-to-booking-screenshot.png)  
+### Service Section  
+![Service Section](https://github.com/AchiniPramo/Elysian-Haven-Hotel-Site/blob/faa730435b24cf46f057ae87fd49d007b1fe9834/Services.PNG)  
 
----
+
 
 ## 🌐 Live Demo  
 
